@@ -1,0 +1,59 @@
+.balance {
+    position: relative;
+    background-color: var(--stats-bg);
+    right: 4%;
+    bottom: 1%;
+    width: 52.5%;
+    height: 47.5%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    position: relative;
+    left: 25px;
+    top: 10px;
+    /* margin: 0; */
+    /* text-decoration: underline var(--chart-gradient-start); */
+}
+.eth-price-title {
+    top: -70px;
+    /* bottom: 100px; */
+}
+.balance-number {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+
+    font-size: 50px;
+    padding: 10px;
+    margin: 0;
+
+    left: 95px;
+    bottom: 15px;
+}
+.price-number {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    font-size: 50px;
+    padding: 10px;
+    margin: 0;
+
+    left: 95px;
+    bottom: 100px;
+}
+.wallet-address {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    left: 20%;
+}
+.estimated-usd-balance {
+    font-family: "Nunito", sans-serif;
+    position: relative;
+    left: 300px;
+    /* top: */
+    bottom: 50px;
+    font-size: 30px;
+    /* padding: 10px; */
+}

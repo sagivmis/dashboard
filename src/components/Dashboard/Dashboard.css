@@ -1,0 +1,134 @@
+.dashboard {
+    background-color: var(--white-bg);
+    position: relative;
+    left: 25rem;
+    bottom: 10rem;
+
+    border-radius: 15px;
+    width: calc(60% + 5rem);
+    padding: 20px;
+    padding-right: 5.4rem;
+    padding-left: 5.4rem;
+    height: 50rem;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1700px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 25rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(55% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1550px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 25rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(50% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1380px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 25rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(45% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1220px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 25rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(40% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 1130px) and (min-width: 961px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 25rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(25% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 961px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 20rem;
+        top: 1rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(20% + 5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}
+@media only screen and (max-width: 733px) {
+    .dashboard {
+        background-color: var(--white-bg);
+        position: relative;
+        left: 3rem;
+        top: 15rem;
+
+        border-radius: 15px;
+        height: 10vh;
+        width: calc(20% + 2.5rem);
+        padding: 20px;
+        padding-right: 5.4rem;
+        padding-left: 5.4rem;
+        height: 120rem;
+        display: inline-block;
+    }
+}

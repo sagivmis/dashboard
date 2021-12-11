@@ -1,0 +1,25 @@
+.stats {
+    position: relative;
+    background-color: var(--stats-bg);
+    left: 51.5%;
+    bottom: 48%;
+    width: 52.5%;
+    height: 47.5%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.title-stats {
+    display: inline;
+    font-family: "Nunito", sans-serif;
+    position: relative;
+
+    left: 35px;
+    bottom: 5px;
+}
+
+.logo-stats {
+    width: 50px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}

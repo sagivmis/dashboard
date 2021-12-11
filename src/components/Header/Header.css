@@ -1,0 +1,55 @@
+@media only screen and (min-width: 960px) {
+    .header {
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        margin-bottom: 200px;
+        transition: all 1s ease-out;
+    }
+
+    .scrolled {
+        transition: all 1s ease-in;
+        background-color: var(--main-bg);
+        padding: 10px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .logo {
+        position: relative;
+        left: 20px;
+        /* width: 200px; */
+    }
+    .wallet-connect {
+        position: absolute;
+        right: 25px;
+        top: 10px;
+        transition: all 2s ease;
+    }
+    .disappear {
+        right: -110px;
+        transform: scale(0.5);
+        transition: all 2s ease;
+    }
+    .none {
+        display: none;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .header {
+        position: sticky;
+        top: 0px;
+        z-index: 10;
+        margin-bottom: 100px;
+        transition: all 1s ease-out;
+    }
+    .scrolled {
+        transition: all 1s ease-in;
+        background-color: var(--main-bg);
+        padding: 10px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .logo {
+    }
+}

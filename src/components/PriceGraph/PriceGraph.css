@@ -1,0 +1,16 @@
+.price-graph {
+    position: relative;
+    background-color: var(--stats-bg);
+    right: 4%;
+    bottom: 46%;
+    width: 108%;
+    height: 47.5%;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.title {
+    font-family: "Nunito", sans-serif;
+    padding: 10px;
+    /* text-decoration: underline var(--chart-gradient-start); */
+}

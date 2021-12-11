@@ -1,0 +1,42 @@
+@media only screen and (min-width: 960px) {
+    .textbox {
+        position: absolute;
+        right: 6%;
+
+        text-align: right;
+        width: calc(75% + 20px);
+        height: calc(80% - 120px);
+        /* the big minus on the height is what gives us the 'late-expand' effect */
+        bottom: calc(10% + 15px);
+        outline: none;
+        border-radius: 10px;
+
+        text-align: left;
+        /* margin: 10px; */
+        padding-left: 30px;
+        /* padding-right: 30px; */
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .textbox {
+        position: absolute;
+        right: 6%;
+
+        text-align: right;
+        width: calc(58% + 20px);
+        height: calc(95% - 120px);
+        /* the big minus on the height is what gives us the 'late-expand' effect */
+        bottom: calc(10% + 15px);
+        outline: none;
+        border-radius: 10px;
+
+        text-align: left;
+        /* margin: 10px; */
+        padding-left: 30px;
+        /* padding-right: 30px; */
+        font-size: 18px;
+        font-family: "Roboto", sans-serif;
+    }
+}

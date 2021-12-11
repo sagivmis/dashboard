@@ -1,0 +1,132 @@
+@media only screen and (min-width: 960px) {
+    .question-container {
+        position: relative;
+        display: inline-block;
+
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+
+        width: calc(80% - 18px);
+        height: calc(35% - 8px);
+        padding: 26px;
+
+        margin-bottom: 20px;
+        background-color: white;
+        border-radius: 1rem;
+        transition: all 0.8s ease-out;
+    }
+
+    .question-container-expanded {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+
+        text-align: left;
+        font-size: 30px;
+        font-weight: 300;
+        margin-bottom: 150px;
+
+        width: calc(80% - 18px);
+        height: calc(70% - 8px);
+        padding: 26px;
+
+        background-color: white;
+        border-radius: 1rem;
+
+        transition: all 0.4s ease-in;
+    }
+    .question {
+        position: relative;
+        top: calc(10% + 10px);
+    }
+    .expand {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+
+        transition: all 0.2s ease-out;
+    }
+
+    .expanded {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-out;
+    }
+
+    .expanded-back {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: all 0.2s ease-out;
+    }
+}
+@media only screen and (max-width: 960px) {
+    .question-container {
+        position: relative;
+        display: inline-block;
+
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+
+        width: calc(78% - 15px);
+        height: calc(35% - 8px);
+        padding: 16px;
+        margin-bottom: 50px;
+
+        background-color: white;
+        border-radius: 1rem;
+        transition: all 1s ease-in;
+    }
+
+    .question-container-expanded {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        position: relative;
+
+        text-align: left;
+        font-size: 20px;
+        font-weight: 300;
+        margin-bottom: 150px;
+
+        width: calc(78% - 15px);
+        padding: 16px;
+        height: calc(70% - 8px);
+
+        background-color: white;
+        border-radius: 1rem;
+
+        transition: all 1s ease-in;
+    }
+    .question {
+        position: relative;
+        top: calc(10% + 10px);
+    }
+    .expand {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+    }
+    .expanded {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+        transform: rotate(180deg);
+        transition: all 0.2s ease-out;
+    }
+    .expanded-back {
+        position: absolute;
+        top: 5%;
+        width: 30px;
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: all 0.2s ease-out;
+    }
+}
