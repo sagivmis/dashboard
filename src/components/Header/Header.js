@@ -5,10 +5,6 @@ import Button from "../Button/Button";
 import { ethers } from "ethers";
 
 const passedY = 50;
-var Web3 = require("web3");
-var web3 = new Web3(
-    Web3.givenProvider || "ws://some.local-or-remote.node:8546"
-);
 
 const Header = ({ setConnected, setBalance, setAccountAddress }) => {
     const [y, setY] = useState(0);

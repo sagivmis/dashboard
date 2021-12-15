@@ -3,7 +3,7 @@
     position: relative;
     left: 25rem;
     bottom: 10rem;
-
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 4px 0px inset;
     border-radius: 15px;
     width: calc(60% + 5rem);
     padding: 20px;

@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useState, useRef } from "react";
+import React, { useState } from "react";
 import SidebarButton from "../SidebarButton/SidebarButton";
 import "./Sidebar.css";
 
@@ -40,7 +40,6 @@ const Sidebar = () => {
                         key={tag.id}
                         id={tag.id}
                         onClick={handleClick}
-                        // className={"hello"}
                     />
                 ))}
             </aside>
